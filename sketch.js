@@ -9,10 +9,10 @@ function setup() {
   createCanvas(1600,400);
  
   car = createSprite(50,200,30,20);
-  car.velocityX = 9;
+  car.velocityX = speed;
 
  wall = createSprite(1500,200,60,height/2);
- wall.Shapecolor = color(80);
+ wall.shapeColor = color(80);
 }
 
 function draw() {
