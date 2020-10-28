@@ -12,14 +12,14 @@ function setup() {
   car.velocityX = speed;
 
  wall = createSprite(1500,200,60,height/2);
- wall.Shapecolor = (80);
+ wall.Shapecolor = color(80);
 }
 
 function draw() {
 
   background(0); 
 
-  if(wall.x-car.x < (car.width+wall.width)/2)
+  if(wall.x-car.x < (car.width+wall.width)/2);
 {
   car.velocityX = 0;
   var deformation=0.5 * weight * speed * speed /22509;
